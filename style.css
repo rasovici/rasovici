@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap');
+
+body {
+  background-color: #f9f9f9;
+  font-family: 'Open Sans';
+  color: rgb(0,0,0);
+}
+
+h1 {
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  width: 180px;
+}
+
+h3 {
+  color: #295a98;
+  font-family: 'Poppins';
+  font-weight: bold;
+  align-items: center;
+  align-content: center;
+  margin: 0px 79px;
+  width: 180px;
+  line-height: 50px;
+}
+
+
+a {
+  color: #2f5d62;
+  font-family: 'Poppins';
+
+}
+
+a:hover {
+  color:#f54748;
+}
+
+#Linkedin{
+  margin:60px;
+  line-height: 60px;
+}
+
+#image {
+  margin: 0px 66px;
+  width: 160px;
+  align-items: center;
+  align-content: center;
+  border-radius: 180px;
+  height: 170px;
+}
+
+.container {
+  margin: 100px auto;
+  background-color: #f9f9f9;
+}
+
+.card {
+  background-color: #e2e2e2;
+  border: 2px solid #eaeaea;
+  padding: 30px;
+  width: 300px; /*300px*/
+  margin: 0 auto;
+  align-items: center;
+  box-shadow: 2px 2px 3px #bdbdc7;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  margin: 0px 60px;
+  /*line-height: 32px;*/
+}
+
+.list-inline li {
+  display:inline-block;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: rgb(220, 220, 220);
+  margin: 8px 24px;
+}
+
+.social-icon:hover {
+  color: rgb(200, 200, 200);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 370px;
+  }
+
+  .card: {
+    width: 200px;
+  }
+}
